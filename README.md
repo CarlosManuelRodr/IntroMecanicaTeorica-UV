@@ -3,6 +3,10 @@ Curso de introducción a la mecánica teórica de la Facultad de Física UV.
 
 Pueden encontrar los apuntes de clase en el directorio *ApuntesClase* de este repositorio.
 
+## Grabaciones de clases
+Los estudiantes pueden encontrar grabaciones de las clases en [mi canal de YouTube](https://www.youtube.com/channel/UCAVSwspuzNpDEpGciCdxW_Q/videos).
+
+
 ## Temario
 * **1- Principios Elementales**
     - Mecánica de una partícula
