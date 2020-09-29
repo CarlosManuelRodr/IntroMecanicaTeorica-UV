@@ -1,5 +1,7 @@
 # IntroMecanicaTeorica-UV
-Curso de introducción a la mecánica teórica de la Facultad de Física UV
+Curso de introducción a la mecánica teórica de la Facultad de Física UV.
+
+Pueden encontrar los apuntes de clase en el directorio *ApuntesClase* de este repositorio.
 
 ## Temario
 * **1- Principios Elementales**
