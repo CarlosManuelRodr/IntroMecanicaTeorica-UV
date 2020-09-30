@@ -4,7 +4,7 @@ Curso de introducción a la mecánica teórica de la Facultad de Física UV.
 Pueden encontrar los apuntes de clase en el directorio *ApuntesClase* de este repositorio.
 
 ## Grabaciones de clases
-Los estudiantes pueden encontrar grabaciones de las clases en [mi canal de YouTube](https://www.youtube.com/channel/UCAVSwspuzNpDEpGciCdxW_Q/videos).
+Los estudiantes pueden encontrar grabaciones de las clases en [mi canal de YouTube](https://www.youtube.com/playlist?list=PLO3arg4juFVbOw8xxGHsddYMhaL5gjzWM).
 
 
 ## Temario
