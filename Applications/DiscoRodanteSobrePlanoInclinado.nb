@@ -1,0 +1,126 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3826,        116]
+NotebookOptionsPosition[      3345,         99]
+NotebookOutlinePosition[      3746,        115]
+CellTagsIndexPosition[      3703,        112]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"DSolve", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"{", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"M", " ", 
+        RowBox[{
+         RowBox[{"x", "''"}], "[", "t", "]"}]}], "-", 
+       RowBox[{"M", " ", "g", " ", 
+        RowBox[{"Sin", "[", "\[Phi]", "]"}]}], "+", 
+       RowBox[{"\[Lambda]", "[", "t", "]"}]}], " ", "\[Equal]", " ", "0"}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"M", " ", 
+        SuperscriptBox["r", "2"], " ", 
+        RowBox[{
+         RowBox[{"\[Theta]", "''"}], "[", "t", "]"}]}], " ", "-", " ", 
+       RowBox[{
+        RowBox[{"\[Lambda]", "[", "t", "]"}], " ", "r"}]}], " ", "\[Equal]", 
+      " ", "0"}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"M", " ", 
+       RowBox[{
+        RowBox[{"x", "''"}], "[", "t", "]"}]}], "\[Equal]", 
+      RowBox[{"\[Lambda]", "[", "t", "]"}]}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"x", "[", "0", "]"}], "\[Equal]", "0"}], ",", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"x", "'"}], "[", "0", "]"}], "\[Equal]", "0"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"\[Theta]", "[", "0", "]"}], "\[Equal]", "0"}], ",", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"\[Theta]", "'"}], "[", "0", "]"}], "\[Equal]", "0"}]}], 
+    "\[IndentingNewLine]", "}"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"x", "[", "t", "]"}], ",", 
+     RowBox[{"\[Theta]", "[", "t", "]"}], ",", 
+     RowBox[{"\[Lambda]", "[", "t", "]"}]}], "}"}], ",", 
+   "\[IndentingNewLine]", "t"}], "\[IndentingNewLine]", "]"}]], "Input",
+ CellChangeTimes->{{3.814617140793836*^9, 3.814617146771831*^9}, {
+  3.814617185687045*^9, 3.8146173649082785`*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"fd2b0a2f-9a4a-481b-9e50-c2827c43f8f7"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"x", "[", "t", "]"}], "\[Rule]", 
+     RowBox[{
+      FractionBox["1", "4"], " ", "g", " ", 
+      SuperscriptBox["t", "2"], " ", 
+      RowBox[{"Sin", "[", "\[Phi]", "]"}]}]}], ",", 
+    RowBox[{
+     RowBox[{"\[Theta]", "[", "t", "]"}], "\[Rule]", 
+     FractionBox[
+      RowBox[{"g", " ", 
+       SuperscriptBox["t", "2"], " ", 
+       RowBox[{"Sin", "[", "\[Phi]", "]"}]}], 
+      RowBox[{"4", " ", "r"}]]}], ",", 
+    RowBox[{
+     RowBox[{"\[Lambda]", "[", "t", "]"}], "\[Rule]", 
+     RowBox[{
+      FractionBox["1", "2"], " ", "g", " ", "M", " ", 
+      RowBox[{"Sin", "[", "\[Phi]", "]"}]}]}]}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.814617297239489*^9, {3.8146173388328414`*^9, 3.814617365996088*^9}},
+ CellLabel->"Out[3]=",ExpressionUUID->"9218f680-243c-4286-82d8-0fcd89ed2304"]
+}, Open  ]]
+},
+WindowSize->{571, 418},
+WindowMargins->{{189, Automatic}, {17, Automatic}},
+FrontEndVersion->"12.1 para Microsoft Windows (64-bit) (March 18, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"30f68447-a34a-4628-aabb-a82af136f97f"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1862, 48, 232, "Input",ExpressionUUID->"fd2b0a2f-9a4a-481b-9e50-c2827c43f8f7"],
+Cell[2445, 72, 884, 24, 51, "Output",ExpressionUUID->"9218f680-243c-4286-82d8-0fcd89ed2304"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
