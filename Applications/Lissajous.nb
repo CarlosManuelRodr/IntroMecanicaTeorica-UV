@@ -1,0 +1,273 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     10538,        263]
+NotebookOptionsPosition[      9794,        241]
+NotebookOutlinePosition[     10230,        258]
+CellTagsIndexPosition[     10187,        255]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"ContourPlot", "[", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        SuperscriptBox["B", "2"], " ", 
+        SuperscriptBox["x", "2"]}], "-", 
+       RowBox[{"2", "A", " ", "B", " ", "x", " ", "y", " ", 
+        RowBox[{"Cos", "[", "\[Delta]", "]"}]}], "+", 
+       RowBox[{
+        SuperscriptBox["A", "2"], 
+        SuperscriptBox["y", "2"]}]}], " ", "\[Equal]", " ", 
+      RowBox[{
+       SuperscriptBox["A", "2"], 
+       SuperscriptBox["B", "2"], " ", 
+       SuperscriptBox[
+        RowBox[{"Sin", "[", "\[Delta]", "]"}], "2"]}]}], ",", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", 
+       RowBox[{"-", "4"}], ",", "4"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"y", ",", 
+       RowBox[{"-", "4"}], ",", "4"}], "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"PerformanceGoal", "\[Rule]", "\"\<Quality\>\""}]}], 
+    "\[IndentingNewLine]", "]"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"A", ",", "1"}], "}"}], ",", 
+     RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"B", ",", "1"}], "}"}], ",", 
+     RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\[Delta]", ",", "0"}], "}"}], ",", "0", ",", 
+     RowBox[{"2", "\[Pi]"}]}], "}"}]}], "\[IndentingNewLine]", "]"}]], "Input",
+ CellChangeTimes->{{3.815079944621237*^9, 3.8150800413245645`*^9}, {
+  3.815080089398591*^9, 3.815080106339143*^9}, {3.8150801478606553`*^9, 
+  3.815080223908592*^9}, {3.8150802846536665`*^9, 3.8150803238226857`*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"57395b49-3318-437d-80e5-229b77e8d710"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`A$$ = 1.15, $CellContext`B$$ = 
+    2., $CellContext`\[Delta]$$ = 4.951150022057514, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"sin t\[IAcute]tulo\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`A$$], 1}, -2, 2}, {{
+       Hold[$CellContext`B$$], 1}, -2, 2}, {{
+       Hold[$CellContext`\[Delta]$$], 0}, 0, 2 Pi}}, Typeset`size$$ = {
+    504., {248., 255.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`A$$ = 1, $CellContext`B$$ = 
+        1, $CellContext`\[Delta]$$ = 0}, "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> 
+      ContourPlot[$CellContext`B$$^2 $CellContext`x^2 - 
+         2 $CellContext`A$$ $CellContext`B$$ $CellContext`x $CellContext`y 
+         Cos[$CellContext`\[Delta]$$] + $CellContext`A$$^2 $CellContext`y^2 == \
+$CellContext`A$$^2 $CellContext`B$$^2 
+         Sin[$CellContext`\[Delta]$$]^2, {$CellContext`x, -4, 
+         4}, {$CellContext`y, -4, 4}, PerformanceGoal -> "Quality"], 
+      "Specifications" :> {{{$CellContext`A$$, 1}, -2, 
+         2}, {{$CellContext`B$$, 1}, -2, 2}, {{$CellContext`\[Delta]$$, 0}, 0,
+          2 Pi}}, "Options" :> {}, "DefaultOptions" :> {}],
+     ImageSizeCache->{569., {337., 345.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{
+  3.815080224786603*^9, {3.8150802998327227`*^9, 3.8150803258796315`*^9}},
+ CellLabel->"Out[3]=",ExpressionUUID->"a352e5a4-658f-4f11-a8ce-4334d6515973"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"ParametricPlot", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"A", " ", 
+        RowBox[{"Cos", "[", 
+         RowBox[{
+          RowBox[{"\[Omega]x", "*", "t"}], "-", "\[Alpha]"}], "]"}]}], ",", 
+       RowBox[{"B", " ", 
+        RowBox[{"Cos", "[", 
+         RowBox[{
+          RowBox[{"\[Omega]y", "*", "t"}], "-", "\[Beta]"}], "]"}]}]}], "}"}],
+      ",", 
+     RowBox[{"{", 
+      RowBox[{"t", ",", "0", ",", 
+       RowBox[{"10", "\[Pi]"}]}], "}"}], ",", 
+     RowBox[{"PlotRange", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "2"}], ",", "2"}], "}"}]}], "}"}]}]}], "]"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"A", ",", "1"}], "}"}], ",", 
+     RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"B", ",", "1"}], "}"}], ",", 
+     RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\[Omega]x", ",", "1"}], "}"}], ",", "0", ",", 
+     RowBox[{"2", "\[Pi]"}]}], "}"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\[Omega]y", ",", "1"}], "}"}], ",", "0", ",", 
+     RowBox[{"2", "\[Pi]"}]}], "}"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\[Alpha]", ",", "1"}], "}"}], ",", "0", ",", 
+     RowBox[{"2", "\[Pi]"}]}], "}"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\[Beta]", ",", "1"}], "}"}], ",", "0", ",", 
+     RowBox[{"2", "\[Pi]"}]}], "}"}]}], "\[IndentingNewLine]", "]"}]], "Input",
+ CellChangeTimes->{{3.815080499731765*^9, 3.8150805324687324`*^9}, {
+  3.8150806692768507`*^9, 3.815080706116929*^9}, {3.8150807469328947`*^9, 
+  3.8150808201261835`*^9}, {3.81508085550291*^9, 3.815080878470871*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"d82b75cb-0f6f-4253-adc4-299c3b4b45dd"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`A$$ = -2., $CellContext`B$$ = 
+    2., $CellContext`\[Alpha]$$ = 
+    0.18221237390820802`, $CellContext`\[Beta]$$ = 
+    1.6776104770169495`, $CellContext`\[Omega]x$$ = 
+    4.10920319089545, $CellContext`\[Omega]y$$ = 4.0149554112877555`, 
+    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"sin t\[IAcute]tulo\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`A$$], 1}, -2, 2}, {{
+       Hold[$CellContext`B$$], 1}, -2, 2}, {{
+       Hold[$CellContext`\[Omega]x$$], 1}, 0, 2 Pi}, {{
+       Hold[$CellContext`\[Omega]y$$], 1}, 0, 2 Pi}, {{
+       Hold[$CellContext`\[Alpha]$$], 1}, 0, 2 Pi}, {{
+       Hold[$CellContext`\[Beta]$$], 1}, 0, 2 Pi}}, Typeset`size$$ = {
+    504., {250., 257.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`A$$ = 1, $CellContext`B$$ = 
+        1, $CellContext`\[Alpha]$$ = 1, $CellContext`\[Beta]$$ = 
+        1, $CellContext`\[Omega]x$$ = 1, $CellContext`\[Omega]y$$ = 1}, 
+      "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> 
+      ParametricPlot[{$CellContext`A$$ 
+         Cos[$CellContext`\[Omega]x$$ $CellContext`t - \
+$CellContext`\[Alpha]$$], $CellContext`B$$ 
+         Cos[$CellContext`\[Omega]y$$ $CellContext`t - \
+$CellContext`\[Beta]$$]}, {$CellContext`t, 0, 10 Pi}, 
+        PlotRange -> {{-2, 2}, {-2, 2}}], 
+      "Specifications" :> {{{$CellContext`A$$, 1}, -2, 
+         2}, {{$CellContext`B$$, 1}, -2, 2}, {{$CellContext`\[Omega]x$$, 1}, 
+         0, 2 Pi}, {{$CellContext`\[Omega]y$$, 1}, 0, 2 
+         Pi}, {{$CellContext`\[Alpha]$$, 1}, 0, 2 
+         Pi}, {{$CellContext`\[Beta]$$, 1}, 0, 2 Pi}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{569., {402., 410.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{3.815080820689242*^9, 3.81508087934555*^9, 
+  3.8150814910091963`*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"6e72f0a6-65c3-4d59-aaee-77e859515768"]
+}, Open  ]]
+},
+WindowSize->{1600, 817},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+Magnification:>1.4 Inherited,
+FrontEndVersion->"12.1 para Microsoft Windows (64-bit) (March 18, 2020)",
+StyleDefinitions->"ReverseColor.nb",
+ExpressionUUID->"1abc9727-3d90-42f2-a256-6788f37af118"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1836, 46, 278, "Input",ExpressionUUID->"57395b49-3318-437d-80e5-229b77e8d710"],
+Cell[2419, 70, 2302, 44, 708, "Output",ExpressionUUID->"a352e5a4-658f-4f11-a8ce-4334d6515973"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4758, 119, 2233, 62, 265, "Input",ExpressionUUID->"d82b75cb-0f6f-4253-adc4-299c3b4b45dd"],
+Cell[6994, 183, 2784, 55, 838, "Output",ExpressionUUID->"6e72f0a6-65c3-4d59-aaee-77e859515768"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
